@@ -40,3 +40,18 @@
     transform: rotate(360deg);
   }
 }
+#BTN{
+	background-color: #695AF3;
+	border:none;
+	color:#ffffff;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:63%;
+	height:30px;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: normal;
+	margin-bottom: 5px;
+	outline:none;
+}

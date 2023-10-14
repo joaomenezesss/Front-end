@@ -67,7 +67,7 @@ function AdicionarFuncionario({ onAdd }) {
       <input type="text" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
       <input type="text" placeholder="Endereco" value={endereco} onChange={e => setEndereco(e.target.value)} />
       
-      <button onClick={handleSubmit}>Adicionar</button>
+      <button id = "BTN" onClick={handleSubmit}>Cadastrar</button>
     </div>
   );
 }
